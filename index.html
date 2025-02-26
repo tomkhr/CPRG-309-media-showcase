@@ -7,7 +7,91 @@
     <title>Icons of Industrial Design - Media Showcase Assignment - Programming Languages (CPRG-309)</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header>
+            <div class="container">
+                <h1>Icons of Industrial Design</h1>
+                <h2>Timeless Pieces That Shaped the World</h2>
+            </div>
+    </header>
+
+    <main>
+
+        <section id="filters">
+
+            <label for="category">Category:</label>
+            <select name="category" id="category">
+                <option value="all">All</option>
+                <option value="home">Home Goods</option>
+                <option value="vehicles">Motor Vehicles</option>
+                <option value="productivity">Productivity</option>
+            </select>
+
+            <label for="country">Country of Origin:</label>
+            <select name="country" id="country">
+                <option value="all">All</option>
+                <option value="germany">Germany</option>
+                <option value="italy">Italy</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="decade">Decade of the 20th Century:</label>
+            <select name="decade" id="decade">
+                <option value="all">All</option>
+                <option value="20s">20's</option>
+                <option value="30s">30's</option>
+                <option value="40s">40's</option>
+                <option value="50s">50's</option>
+            </select>
+
+        </section>
+
+        <section id="pieces">
+
+
+                <article data-category="productivity" data-country="italy" data-decade="20s">
+                    <h3>Laica 1(A) Camera (1925)</h3>
+                    <img src="/assets/leica.webp" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos doloremque earum quam alias vero dignissimos, quod consectetur provident ducimus aut sapiente sit explicabo assumenda hic enim. Possimus officiis alias unde?</p>
+                </article>
+
+                <article data-category="home" data-country="usa" data-decade="30s">
+                    <h3>KitchenAid Stand Mixer (1930s)</h3>
+                    <img src="assets/ka-mixer.webp" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos doloremque earum quam alias vero dignissimos, quod consectetur provident ducimus aut sapiente sit explicabo assumenda hic enim. Possimus officiis alias unde?</p>
+                </article>
+
+                <article data-category="vehicles" data-country="germany" data-decade="30s">
+                    <h3>Volkswagen Beetle (1938)</h3>
+                    <img src="assets/vw-beetle.webp" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos doloremque earum quam alias vero dignissimos, quod consectetur provident ducimus aut sapiente sit explicabo assumenda hic enim. Possimus officiis alias unde?</p>
+                </article>
+
+                <article data-category="vehicles" data-country="italy" data-decade="40s">
+                    <h3>Vespa Scooter (1946)</h3>
+                    <img src="assets/vespa.webp" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos doloremque earum quam alias vero dignissimos, quod consectetur provident ducimus aut sapiente sit explicabo assumenda hic enim. Possimus officiis alias unde?</p>
+                </article>
+
+                <article data-category="productivity" data-country="italy" data-decade="50s">
+                    <h3>Olivetti Lettera 22 Typewriter (1950)</h3>
+                    <img src="assets/leterra22.webp" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos doloremque earum quam alias vero dignissimos, quod consectetur provident ducimus aut sapiente sit explicabo assumenda hic enim. Possimus officiis alias unde?</p>
+                </article>
+
+                <article data-category="home" data-country="germany" data-decade="50s">
+                    <h3>Braun SK4 Record Player (1956)</h3>
+                    <img src="assets/braun-sk4.webp" alt="">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos doloremque earum quam alias vero dignissimos, quod consectetur provident ducimus aut sapiente sit explicabo assumenda hic enim. Possimus officiis alias unde?</p>
+                </article>
+
+        </section>
+
+        <section id="no-results">
+            <p>No items were found to match your filter. Please adjust your filters.</p>
+        </section>
+
+
+    </main>
 
 
 

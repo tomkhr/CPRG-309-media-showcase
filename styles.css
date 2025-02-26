@@ -1,8 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0 auto;
 }
 
 body {
-    background-color: red;
+    font-family: "Passion One", impact, serif;
+    font-weight: 500;
+    background-color: #fff;
+    color: #444;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #f45326;
+    text-transform: uppercase;
+    line-height: .8;
+}
+
+h2 {
+    font-family: "Roboto Mono", courier, monospace;
+}
+
+h3 {
+    color: #f45326;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: .05rem;
+}
+
+p {
+    font-family: "Roboto Mono", courier, monospace;
+}
+
+header {
+    background-color: #fcf8f0;
+    padding: 3rem 1.5rem;
+    border-bottom: 2px solid #e6e1d8;
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+main {
+    padding: 1rem;
+}
+
+#filters {
+    background-color: #fcf8f0;
+    border: 2px solid #e6e1d8;
+    padding: 1rem;
+    line-height: 2;
+}
+
+label {
+    color: #f45326;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+select {
+    margin-right: 1rem;
+    padding: .5rem;
+    min-width: 15ch;
+    background-color: #fff;
+    border: 2px solid #e6e1d8;
+    cursor: pointer;
+}
+
+#pieces {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-block: 1.5rem;
+}
+
+article {
+    background-color: #fcf8f0;
+    max-width: 80ch;
+    padding: 2rem;
+    border: 2px solid #e6e1d8;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-block: 2rem;
+}
+
+#no-results p {
+    text-align: center;
+    margin: 2rem;
+    display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 2rem 1.5rem;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    #pieces {
+        grid-template-columns: 1fr;
+    }
 }
