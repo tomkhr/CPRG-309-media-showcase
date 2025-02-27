@@ -65,10 +65,10 @@ label {
 select {
     margin-right: 1rem;
     padding: .5rem;
-    min-width: 15ch;
     background-color: #fff;
     border: 2px solid #e6e1d8;
     cursor: pointer;
+    font-family: "Roboto Mono", courier, monospace;
 }
 
 #pieces {
@@ -96,6 +96,8 @@ img {
     margin: 2rem;
     display: none;
 }
+
+
 
 
 @media screen and (max-width: 768px) {
