@@ -19,9 +19,3 @@ categoryFilter.addEventListener('change', () => {
         }
     }
 });
-
-
-countryFilter.addEventListener('change', () => {});
-
-
-decadeFilter.addEventListener('change', () => {});
